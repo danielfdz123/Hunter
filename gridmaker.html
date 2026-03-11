@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Grid</title>
+            <link rel="stylesheet" href="gridstyles.css">
+        </head>
+
+        <body>
+            <button id="add" onclick="addR()">Add Row</button>
+            <button id="add" onclick="addC()">Add Col</button>
+            <button id="remove" onclick="removeR()">Remove Row</button>
+            <button id="remove" onclick="removeC()">Remove Col</button>
+            <button id="other" onclick="fillU()">Fill All Uncolored</button>
+            <button id="other" onclick="fill()">Fill All</button>
+            <button id="other" onclick="clearAll()">Clear</button>
+        
+            <select onchange="selected()" id="selectedID">
+                <option value="SELECT">Select Color</option>
+                <option value="Red">Red</option>
+                <option value="Blue">Blue</option>
+                <option value="Green">Green</option>
+                <option value="Yellow">Yellow</option>
+                <option value="Black">Black</option>
+                <option value="Pink">Pink</option>
+                <option value="Purple">Purple</option>
+
+            </select>
+
+            <table id="grid"> </table>
+            <script src="gridscript.js"></script>
+        </body>
+    </html>

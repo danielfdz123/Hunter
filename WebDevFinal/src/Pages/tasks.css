@@ -1,0 +1,59 @@
+.TaskPage {
+    width: 1200px; 
+    height: 1137px; 
+    background-color:rgba(224, 222, 222, 0.507); 
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.795); 
+    border-radius: 10px; 
+}
+
+.pageTitle {
+    text-align: center;
+    padding-top: 15px;
+    font-family: Verdana;
+    text-shadow: 5px 5px 8px rgb(255, 255, 255);
+    height: 30px;
+    /* box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.795); */
+}
+
+/* styling for the text inside the About box */
+.aboutBox {
+    height: 110px;
+    width: 90%;
+    /* THIS IS FOR CENTERING THE BOX VERY IMPORTANT RAHNHHHHHHH */
+    margin: 0 auto;                                 
+    border-color: rgb(255, 0, 0);
+    padding-top: 15px;
+    padding-bottom: 50px;
+/* Uncomment this next line out to see where the boxes/borders are */
+    /* box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.795);  */
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+
+#add
+{
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: rgb(17, 196, 17);
+}
+
+.allTasks {
+    height: 790px;
+    width: 90%;
+    padding-top: 15px;
+    /* THIS IS FOR CENTERING THE BOX VERY IMPORTANT RAHNHHHHHHH */
+    margin: 0 auto;                                 
+    border-color: rgb(255, 0, 0);
+/* Uncomment this next line out to see where the boxes/borders are */
+    /* box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.795);  */
+    font-family: Comic Sans MS;
+    font-size: 20px;
+}

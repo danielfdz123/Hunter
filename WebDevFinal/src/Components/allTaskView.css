@@ -1,0 +1,94 @@
+.taskBox {
+  width: 100%; 
+  max-width: 1000px;       
+  max-height: 720px;     
+/* Centering in the box */ 
+  margin: 20px auto; 
+  padding: 20px;   
+/*Styling member card */
+  border-radius: 8px;
+  font-family: 'Times New Roman', Times, serif;
+  overflow-y: auto;       
+  display: flex;
+  flex-direction: column;
+  gap: 20px;             
+  /*Container position */ 
+  background-color: #f5e6e646;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  height: 130px;
+  box-sizing: border-box;     
+  border: 1px solid #000000;     
+  background-color: #ffffff93;  
+  border-radius: 4px;         
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for name of task */ 
+.title {
+  cursor: pointer;
+}
+
+/* Styling for task description */ 
+.card p {
+  text-align: left;
+  font-size: 17px;
+  padding-right: 5px;
+}
+
+/* Styling for delete button */ 
+.card button {
+    margin-right: right;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 0, 0);
+}
+
+/* Styling for player responsible for the task */ 
+.priority {
+  text-align: left;
+  flex-grow: 1;
+  margin-left: 10px;
+  font-style: italic;
+}
+
+/*Makes the task title box and delete button on the same line, but seperate */
+.horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px;
+}
+
+/* SINGLE MEMBER VIEW STUFF RAHHHH */
+.singTaskView {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.308);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.taskDetails {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.taskDetails li{
+  text-align: center;
+}

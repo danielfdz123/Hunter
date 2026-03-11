@@ -1,0 +1,28 @@
+.NavBar {
+  background-color: rgba(226, 223, 223, 0); /* Example background color */
+  border: transparent;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); See border on where the container */
+  border-radius: 10px; /* Optional rounded corners */
+  padding-bottom: 200px;
+  font-size: 20px;
+}
+
+  .NavBarLogo {
+    width: 125px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 20px; /* Space between the logo and navigation buttons */
+  }
+
+  .NavButtons {
+    text-align: center;
+    height: auto;
+    width:auto;
+    font-size: 30px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border: transparent;
+    box-shadow: transparent;
+    background-color: transparent;
+    margin: 0 130px; /* Space between buttons */
+    cursor: pointer;
+  }

@@ -1,0 +1,20 @@
+h1
+{
+    text-align: center;
+}
+
+a:link
+{
+    color:#da1748;
+}
+
+a:visited
+{
+    color: #da1748;
+}
+
+body
+{
+    background-color: rgb(250, 232, 199);
+    color: rgb(0, 0, 0);
+}

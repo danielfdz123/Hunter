@@ -1,0 +1,20 @@
+.header
+{
+    text-align: center;
+}
+
+.hobbies
+{
+    color:  #da1748;
+}
+
+body
+{
+    background-color: rgb(250, 232, 199);
+    color: rgb(0, 0, 0);
+}
+
+img
+{
+    border: 5px solid #6e6b6b;
+}
