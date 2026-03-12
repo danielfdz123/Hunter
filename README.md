@@ -7,6 +7,7 @@ Core Classes:
 - CSCI 23500 - Software Analysis & Design II
 - CSCI 26000 - Computer Architecture II
 - CSCI 33500 - Software Analysis & Design III
+- CSCI 49900 - Capstone
   
 Electives:
 - CSCI 43500 - Data Base Managament
